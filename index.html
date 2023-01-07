@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Login</title>
+       <style>
+       *{
+        background-color: #aaf2ef;
+       }
+       </style>
+    
+    </head>
+ <body>
+
+ 	<h1 align="center"><mark>Course Registration Form</mark></h1>
+
+<form >
+	<fieldset>
+		<legend align="center">Personal Details</legend>
+		<table align="center">
+			<tr><td><label>First Name</label></td><td><input type="text" name="name" placeholder="Ex:Naveenya" minlength="5" size="17" ></td></tr>
+
+			<tr><td><label>Surname</label></td><td><input type="text" name="SN" placeholder="Ex:Varma" size="17"></td></tr>
+			<tr><td><label>MobileNumber</label></td><td><input type="tel" name="mobile" placeholder="Ex:000-000-0000" size="17" maxlength="12"></td></tr>
+			<tr><td><label>Email</label></td><td><input type="email" name="mail" placeholder="naveenya@123gmail.com" size="17"  ></td></tr>
+			<tr><td><label>Password</label></td><td><input type="password" name="pswd" placeholder="min 8 characters" size="17" maxlength="14" ></td></tr>
+			<tr><td><label>Confirm Password</label></td><td><input type="password" name="cnpswd" placeholder="min 8 characters" size="17" maxlength="14" ></td></tr>
+			<tr><td><label>DOB</label></td><td><input type="date" name="dob" placeholder="21/07/1999" size="17" ></td></tr>
+			<tr><td><label>Gender</label></td><td><input type="radio" name="gender" value="M" >Male<input type="radio" name="gender" value="F" >Female<input type="radio" name="gender" value="C">Custom</td></tr>
+
+			<tr><td><label>Select Country</label></td><td><select name="Country">
+			<option value="India">India</option>
+			<option value="USA">USA</option>
+			<option value="China">China</option>
+			<option value="France">France</option>
+			<option value="Austrilia">Austrilia</option>
+			<option value="Bangladesh">Bangladesh</option>
+			<option value="South Africa">South Africa</option>
+		</select></td></tr>
+
+		<tr><td><label>Upload Picture</label></td><td><input type="file" name="pic" placeholder="picture" size="17" ></td></tr>
+		<tr><td><input type="reset" ></td></tr>
+		</table>
+	</fieldset>
+
+	<fieldset>
+		<legend align="center">Course Details</legend>
+
+		<table align="center">
+			<tr><td><label>Select Course</label></td><td><select name="Course">
+				<option value="java">JAVA</option>
+				<option value="python">PYTHON</option>
+				<option value="html">HTML</option>
+				<option value="css">CSS</option>
+				<option value="js">JS</option>
+				<option value="mysql">MYSQL</option>	
+			</select></td></tr>
+
+			<tr><td><label>Develery Mode</label></td><td><input type="checkbox" name="mode1" value="ON" >Online
+		<input type="checkbox" name="mode2" value="OFF" >Offline</td></tr>
+
+		<tr><td><label>Comments</label></td>
+			<tr><td><textarea rows="4" cols="40"></textarea></td></tr>
+		</table>
+	</fieldset><br>
+	<input type="Submit" name="sub" style="background-color:orange;"  >
+
+</form>
+
+<script src="Reg.js">
+
+
+</script>
+
+</body>
+</html>
+
