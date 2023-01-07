@@ -31,7 +31,7 @@ Changing the  Background Colors
 </body>
 </html>
 
-JAVASCRIPIT:-
+JavaScripit
 var colors = ['white','yellow','orange','red','golden','pink','brown','blue','black','cyan','dark gray','violet','green','silver','chocolate','navy blue','Lime','khaki','cherry'];
  var len = colors.length-1;
 
@@ -48,5 +48,40 @@ var colors = ['white','yellow','orange','red','golden','pink','brown','blue','bl
         return Math.round(Math.random() * len);
        }
        
-CSS:-
+CSS
+/* *{
+    background-color: lightblue;
+} */
+
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.contain{
+    text-align: center;
+}
+.contain h2{
+    background-color:#222;
+    color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.tnb {
+    text-transform: uppercase;
+    background: transparent;
+    color:chocolate;
+    font-weight: 700;
+    border: 2px solid #222;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px;
+   }
+
+   .tnb:hover {
+    color: #fff;
+    background:red;
+    
+   }
 
